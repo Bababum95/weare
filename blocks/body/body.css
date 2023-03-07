@@ -1,0 +1,8 @@
+.body {
+    background: #000032;
+    font-family: 'Helvetica Neue', 'Neue Machina';
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}

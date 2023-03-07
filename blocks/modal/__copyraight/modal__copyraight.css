@@ -1,0 +1,17 @@
+.modal__copyraight {
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 70px;
+}
+
+@media screen and (max-width:1000px) {
+    .modal__copyraight {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .modal__copyraight {
+        display: none;
+    }
+}

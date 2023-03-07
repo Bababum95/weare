@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 40px 0;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+@media screen and (max-width:1000px) {
+    .header {
+        padding: 13px 25px 0;
+    }
+}

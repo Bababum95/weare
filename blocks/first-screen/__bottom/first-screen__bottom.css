@@ -1,0 +1,37 @@
+.first-screen__bottom {
+    position: absolute;
+    bottom: 4vh;
+    left: 110px;
+    display: flex;
+    gap: 48px;
+}
+
+.first-screen__bottom p {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.first-screen__bottom span {
+    color: #1E4FC6;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:690px) {
+    .first-screen__bottom {
+        flex-direction: column;
+        gap: 13px;
+        left: 65px;
+    }
+
+    .first-screen__bottom span {
+        margin-right: 5px;
+    }
+
+    .first-screen__bottom p {
+        font-size: 12px;
+    }
+}

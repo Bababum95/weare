@@ -1,0 +1,58 @@
+.header__button {
+    font-family: 'HelveticaNeueCyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    width: 324px;
+    height: 58px;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    border-radius: 67px;
+    padding: 5px 0 0;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.header__button:hover {
+    border: 1px solid #1588F1;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px #1588F1;
+    color: #1588F1;
+}
+
+.header__button.hide {
+    display: none;
+}
+
+.header__button.disabled {
+    border: 1px solid #000032;
+    color: #000032;
+    opacity: 0.3;
+}
+
+.header__button.disabled:hover {
+    box-shadow: none;
+    cursor: auto;
+}
+
+@media screen and (max-width:1000px) {
+    .header__button {
+        font-size: 12px;
+        width: 229px;
+        height: 38px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .header__button {
+        display: none;
+    }
+    .header__button.hide {
+        display: block;
+        position: absolute;
+        top: auto;
+        bottom: calc(120px - 100vh);
+        left: calc((100% - 229px)/2);
+    }
+}

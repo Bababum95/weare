@@ -1,0 +1,23 @@
+.modal__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1000px) {
+    .modal__wrap {
+        position: absolute;
+        left: 67px;
+        top: 11vh;
+        bottom: 4vh;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .modal__wrap {
+        right: 24px;
+        left: auto;
+        top: 20px;
+        bottom: auto;
+    }
+}

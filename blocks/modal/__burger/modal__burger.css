@@ -1,0 +1,18 @@
+.modal__burger {
+    background: linear-gradient(112.73deg, #203B7C 1.67%, #492F74 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__burger .modal__copyraight {
+    position: absolute;
+    bottom: 4vh;
+    left: 100px;
+}
+
+@media screen and (max-width:1000px) {
+    .modal__burger .modal__copyraight {
+        left: 67px;
+    }
+}

@@ -1,0 +1,37 @@
+.header__phone {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    color: #fff;
+    text-decoration-line: none;
+}
+
+.header__phone.dark {
+    color: #000032;
+}
+
+.header__phone.hide {
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+    .header__phone {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .header__phone {
+        display: none;
+    }
+    
+    .header__phone.hide {
+        display: block;
+        position: absolute;
+        top: auto;
+        bottom: calc(80px - 100vh);
+        left: calc((100% - 158.8px)/2);
+    }
+}

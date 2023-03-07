@@ -1,0 +1,14 @@
+.title {
+    font-family: 'Neue Machina';
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:690px) {
+    .title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+}

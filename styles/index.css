@@ -1,0 +1,38 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/font/HelveticaNeue/stylesheet.css);
+@import url(../vendor/font/NeueMachina/stylesheet.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/text/text.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__phone/header__phone.css);
+
+@import url(../blocks/first-screen/first-screen.css);
+@import url(../blocks/first-screen/__bottom/first-screen__bottom.css);
+@import url(../blocks/first-screen/__image/first-screen__image.css);
+@import url(../blocks/first-screen/__text/first-screen__text.css);
+@import url(../blocks/first-screen/__title/first-screen__title.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input-error/form__input-error.css);
+@import url(../blocks/form/__inputs/form__inputs.css);
+@import url(../blocks/form/__wraper/form__wraper.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__submit/form__submit.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__text/form__text.css);
+
+@import url(../blocks/modal/modal.css);
+@import url(../blocks/modal/__btn-back/modal__btn-back.css);
+@import url(../blocks/modal/__consultation/modal__consultation.css);
+@import url(../blocks/modal/__copyraight/modal__copyraight.css);
+@import url(../blocks/modal/__wrap/modal__wrap.css);
+@import url(../blocks/modal/__burger/modal__burger.css );
+@import url(../blocks/modal/__menu/modal__menu.css);

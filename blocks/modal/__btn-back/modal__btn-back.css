@@ -1,0 +1,18 @@
+.modal__btn-back {
+    width: 100px;
+    height: 58px;
+    padding: 0;
+    border: 1px solid rgba(0, 0, 50, 0.4);
+    border-radius: 67px;
+    background-color: #fff;
+}
+
+.modal__btn-back:hover {
+    border: 1px solid #1588F1;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px #1588F1;
+}
+
+.modal__btn-back:hover path {
+    fill: #1E4FC6;
+}

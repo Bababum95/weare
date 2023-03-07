@@ -1,0 +1,13 @@
+.first-screen__text {
+    max-width: 400px;
+    margin: 37px 0 0 160px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:690px) {
+    .first-screen__text {
+        font-size: 13px;
+        max-width: 260px;
+        margin: 6px 0 0 65px;
+    }
+}

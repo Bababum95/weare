@@ -1,0 +1,22 @@
+.modal__consultation {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    color: #000032;
+    padding: 15vh 100px 4vh;
+}
+
+@media screen and (max-width:1000px) {
+    .modal__consultation {
+        justify-content: center;
+        padding: 25vh 0 0;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .modal__consultation {
+        z-index: 10;
+        padding: 75px 0 0;
+    }
+}

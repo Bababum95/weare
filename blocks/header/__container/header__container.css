@@ -1,0 +1,12 @@
+.header__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 45px;
+}
+
+@media screen and (max-width:1000px) {
+    .header__container {
+        gap: 20px;
+    }
+}

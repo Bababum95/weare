@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Weare</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <a href="#">
+            <div class="header__logo"></div>
+        </a>
+        <div class="header__container">
+            <address>
+                <a class="header__phone" href="tel:+7 928 123 45 67">+7 928 123 45 67</a>
+            </address>
+            <button class="header__button">Получить консультацию</button>
+            <button class="header__burger">
+                <svg width="73" height="74" viewBox="0 0 73 74" fill="none">
+                    <rect x="18" y="25" width="20" height="2" fill="white" />
+                    <rect x="18" y="35" width="36" height="2" fill="white" />
+                    <rect x="34" y="45" width="20" height="2" fill="white" />
+                    <circle cx="33" cy="41" r="31.5" stroke="#15379A" stroke-width="3" />
+                    <circle cx="40" cy="33" r="31.5" stroke="#15379A" stroke-width="3" />
+                    <circle cx="36" cy="36" r="31.5" stroke="#1E4FC6" stroke-width="3" />
+                </svg>
+                <p>Закрыть</p>
+            </button>
+        </div>
+    </header>
+    <section class="first-screen">
+        <h1 class="first-screen__title">Разработка <span>VR/AR</span> проектов</h1>
+        <p class="first-screen__text text">Моделирование и визуализация 3D объектов в формате виртуальной реальности</p>
+        <div class="first-screen__image">
+            <div></div><img src="./images/weare/VR 3.png" alt="">
+        </div>
+        <div class="first-screen__bottom">
+            <p><span>/</span>Участники фестиваля круг света</p>
+            <p><span>/</span>Cертификат iso 9001</p>
+        </div>
+
+    </section>
+    <div class="modal__consultation modal">
+        <div class="modal__wrap">
+            <button class="modal__btn-back">
+                <svg width="62" height="9" viewBox="0 0 62 9" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M0.000724399 4.50002L4.70622 9.00001L4.70624 4.97456L62 4.97456L62 4.02565L4.70624 4.02565L4.70625 5.00878e-06L0.000724399 4.50002Z"
+                        fill="#000032" />
+                </svg>
+            </button>
+            <p class="modal__copyraight">© 2021 vr-design</p>
+        </div>
+        <form class="modal__form form" novalidate>
+            <h2 class="form__title title">Получить консультацию</h2>
+            <p class="form__text text">Мы всегда рады обсудить с вами ваш проект или ответить на вопросы.</p>
+            <div class="form__inputs">
+                <div class="form__wraper">
+                    <input name="name" class="form__input" required type="text" placeholder="Имя" minlength="2"
+                        maxlength="40">
+                    <span class="form__input-error name-error"></span>
+                </div>
+                <div class="form__wraper">
+                    <input name="phone" class="form__input" required type="tel" placeholder="Телефон">
+                    <span class="form__input-error phone-error"></span>
+                </div>
+                <div class="form__wraper">
+                    <input name="email" class="form__input" required type="email" placeholder="E-mail">
+                    <span class="form__input-error email-error"></span>
+                </div>
+                <div class="form__wraper">
+                    <input name="text" class="form__input" required type="text" placeholder="Описание задачи"
+                        minlength="2">
+                    <span class="form__input-error text-error"></span>
+                </div>
+            </div>
+            <div class="form__checkbox">
+                <label><input type="checkbox" autocomplete>Я согласен с политикой конфиденциальности</label>
+            </div>
+            <button class="form__submit" type="submit">Отправить заявку</button>
+        </form>
+    </div>
+    <div class="modal__burger modal">
+        <nav class="modal__menu">
+            <ul>
+                <li><a href="#"><sup>01 </sup>Главная</a></li>
+                <li><a href="#"><sup>02 </sup>Технологиии</a></li>
+                <li><a href="#"><sup>03 </sup>Услуги</a></li>
+                <li><a href="#"><sup>04 </sup>Кейсы</a></li>
+                <li><a href="#"><sup>05 </sup>О компании</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><sup>06 </sup>Сертификаты</a></li>
+                <li><a href="#"><sup>07 </sup>Команда</a></li>
+                <li><a href="#"><sup>08 </sup>Отзывы</a></li>
+                <li><a href="#"><sup>09 </sup>Блог</a></li>
+                <li><a href="#"><sup>10 </sup>Контакты</a></li>
+            </ul>
+        </nav>
+        <p class="modal__copyraight">© 2021 vr-design</p>
+    </div>
+    <script type="module" src="./scripts/index.js"></script>
+</body>
+
+</html>
